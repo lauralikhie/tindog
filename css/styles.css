@@ -1,0 +1,209 @@
+#title{
+background-color: #ff4c68;
+color: White ;
+
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+
+.container-fluid{
+padding: 3% 15% 0px ;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+font-size: 3rem;
+font-weight: bold;
+padding-bottom: 50px;
+}
+
+.btn{
+margin: 5% 3% 5% 0 ;
+}
+
+.body{
+font-family: 'Montserrat';
+}
+
+.navbar{
+padding-bottom: 4.5rem;
+}
+
+.nav-item{
+padding: 0 18px;
+}
+
+.nav-link{
+font-size: 1.2rem;
+font-family: 'Montserrat-Light', sans-serif;
+}
+
+
+.title-img{
+ transform: rotate(25deg);
+   width: 60%;
+   top: 150px;
+   right: 2% ;
+   position: relative;
+
+}
+
+
+@media (max-width: 1028px) {
+
+#title{
+text-align: center;
+}
+
+.title-img{
+position: static;
+transform: rotate(0);
+}
+}
+
+/* feature icon css  */
+
+.feature-container {
+padding: 7% 15%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+
+}
+
+
+.feature-icon{
+color: #ef8172 ;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+
+
+.feature-box {
+text-align: center;
+padding: 5%;
+}
+
+h2{
+font-family: 'Montserrat' ;
+font-weight: bold;
+font-size: 3rem ;
+ }
+
+h3{
+font-family: 'Montserrat' ;
+font-weight: bold;
+line-height: 1.5rem ;
+}
+
+p{
+color: #8f8f8f;
+ }
+
+
+em{
+padding-left: 20px;
+font-weight: bold;
+}
+
+.fas{
+height: 70px ;
+}
+
+
+
+/* testimonial */
+
+
+#testimonials{
+  padding: 100px 0 80px;
+text-align: center;
+background-color: #ff4c68 ;
+color: white ;
+line-height: 1.5rem;
+}
+
+
+ccarousel-item{
+  padding: 7% 15% ;
+
+}
+
+.testimonial-img{
+width: 10% ;
+border-radius: 100% ;
+}
+
+
+/* press */
+
+#press{
+background-color: #ff4c68;
+padding-left: 20px ;
+}
+
+.press-logo{
+width: 15% ;
+margin: 4% 4% 7% ;
+}
+
+
+
+/* pricing */
+
+.price-card{
+margin: 0 10px 0 ;
+}
+
+
+#pricing{
+padding: 100px;
+text-align: center;}
+
+
+.pricing-column{
+padding: 3% 2%;
+
+}
+
+
+
+/* footer */
+
+#cta{
+  padding: 7% 15% ;
+ background-color: #ff4c68 ;
+ color: white;
+ text-align: center;
+}
+
+
+#footer{
+  text-align: center;
+  padding: 7% 15% ;
+} 
+
+  .footer-txt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+.foot-icon{
+  margin: 20px 10px;
+  padding-top: 30px;
+padding-right: 20px ;
+}
+
+.footer-p{
+
+}
